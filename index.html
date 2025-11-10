@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>🚆 Train Booking</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="navbar">
+    <h1>🚆 Train Booking</h1>
+  </div>
+
+  <div class="container">
+    <!-- Search Section -->
+    <section class="card">
+      <h2>🔍 Search Trains</h2>
+      <div class="form-row">
+        <input id="fromInput" placeholder="From (e.g., Delhi)" />
+        <input id="toInput" placeholder="To (e.g., Agra)" />
+        <button id="searchBtn">Search</button>
+      </div>
+    </section>
+
+    <!-- Results -->
+    <section id="results" class="card">
+      <h2>📋 Results</h2>
+      <div id="trainsList" class="list">No results yet.</div>
+    </section>
+
+    <!-- Bookings -->
+    <section id="bookingsSection" class="card">
+      <h2>🎟 My Bookings</h2>
+      <div id="bookingsList" class="list">No bookings yet.</div>
+    </section>
+  </div>
+
+  <footer>
+    <p>Made with ❤️ by Akshat</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
